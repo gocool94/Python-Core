@@ -1,5 +1,7 @@
 # Core Python Topics (Basic to Advanced)
 
+export PS1="Python Learning > "
+
 ---
 
 ## 1. Basics of Python  
