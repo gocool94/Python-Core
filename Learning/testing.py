@@ -31,3 +31,6 @@ while True :
     if value == 3:
         print("Thank you for using ticketing system")
         break
+
+
+       print("Invalid input, please try again")
