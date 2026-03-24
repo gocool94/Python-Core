@@ -122,3 +122,18 @@ final_student = set(student)
 
 print(f"The final students are {final_student}")
 
+
+
+"""
+data = [5, 12, 7, 20, 3, 15]
+
+challenge = reduce(
+    lambda x, y: x * y,
+    filter(
+        lambda x: x % 4 == 0,
+        map(lambda x: x * 2, data)
+    )
+)
+
+print("Final Output:", challenge)
+"""
