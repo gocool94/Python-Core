@@ -5,6 +5,7 @@ class Car:
 
     def steer(self):
         print("Vroooooooom")
+        print("Heeee")
 
 
 Maruti_ciaz = Car()
