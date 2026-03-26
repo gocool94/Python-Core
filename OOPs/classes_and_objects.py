@@ -1,16 +1,24 @@
 class Car:
-    tyre_numbers = 4
-    vehicle_type = "Four wheeler"
-    engine = 'petrol'
-
-    def steer(self):
-        print("Vroooooooom")
-        print("Heeee")
+    vehicle_type = 'four wheeler'
+    tyre = 4
 
 
-Maruti_ciaz = Car()
+    def set_details(self,brand,color):
+        self.brand = brand
+        self.color = color
+    
+    def start_engine(self):
+        print(f"The {self.color} {self.brand} car is starting.... Vrrrrommmmm")
 
-print(Maruti_ciaz.tyre_numbers)
-print(Maruti_ciaz.vehicle_type)
-audi_r8 = Car()
-audi_r8.steer()
+
+Toyota_glanza = Car()
+Maruthi_Ciaz = Car()
+
+Toyota_glanza.set_details('toyota','green')
+Maruthi_Ciaz.set_details('maruthi','yellow')
+
+
+Toyota_glanza.start_engine()
+Maruthi_Ciaz.start_engine()
+
+
